@@ -39,6 +39,7 @@ import TransformasiGeometriMenuPage from "./pages/TransformasiGeometriMenuPage";
 import BangunRuangSisiLengkungMenuPage from "./pages/BangunRuangSisiLengkungMenuPage";
 import BangunRuangSisiDatarMenuPage from "./pages/BangunRuangSisiDatarMenuPage";
 import TeoremaPythagorasMenuPage from "./pages/TeoremaPythagorasMenuPage";
+import StatistikaMenuPage from "./pages/StatistikaMenuPage";
 import PapanPeringkatPage from "./pages/PapanPeringkatPage";
 import BankSoalPage from "./pages/BankSoalPage";
 import ChatAIPage from "./pages/ChatAIPage";
@@ -83,6 +84,7 @@ const AppInner = () => {
       <Route path="/materi/bangun-ruang-sisi-lengkung" element={<BangunRuangSisiLengkungMenuPage />} />
       <Route path="/materi/bangun-ruang-sisi-datar" element={<BangunRuangSisiDatarMenuPage />} />
       <Route path="/materi/teorema-pythagoras" element={<TeoremaPythagorasMenuPage />} />
+      <Route path="/materi/statistika" element={<StatistikaMenuPage />} />
       <Route path="/latihan" element={<LatihanPage />} />
       <Route path="/quiz" element={<QuizPage />} />
       <Route path="/lingkaran-quiz" element={<LingkaranQuizPage />} />

@@ -131,12 +131,14 @@ const MateriPage = () => {
                       navigate("/materi/transformasi-geometri");
                     } else if (topik === "BANGUN RUANG SISI LENGKUNG") {
                       navigate("/materi/bangun-ruang-sisi-lengkung");
+                    } else if (topik === "STATISTIKA") {
+                      navigate("/materi/statistika");
                     }
                   }}
                 >
                   <Presentation className="w-5 h-5 text-primary shrink-0 group-hover:scale-110 transition-transform" />
                   <span className="font-body text-sm text-white">{topik}</span>
-                  {(topik === "BILANGAN BULAT" || topik === "BILANGAN RASIONAL" || topik === "ALJABAR" || topik === "PERSAMAAN DAN PERTIDAKSAMAAN SATU VARIABEL" || topik === "PERBANDINGAN" || topik === "ARITMETIKA SOSIAL" || topik === "GARIS DAN SUDUT" || topik === "SEGITIGA DAN SEGIEMPAT" || topik === "HIMPUNAN" || topik === "BANGUN RUANG SISI DATAR" || topik === "LINGKARAN" || topik === "TEOREMA PYTHAGORAS" || topik === "BILANGAN BERPANGKAT" || topik === "KESEBANGUNAN DAN KEKONGRUENAN" || topik === "TRANSFORMASI GEOMETRI" || topik === "BANGUN RUANG SISI LENGKUNG") && (
+                  {(topik === "BILANGAN BULAT" || topik === "BILANGAN RASIONAL" || topik === "ALJABAR" || topik === "PERSAMAAN DAN PERTIDAKSAMAAN SATU VARIABEL" || topik === "PERBANDINGAN" || topik === "ARITMETIKA SOSIAL" || topik === "GARIS DAN SUDUT" || topik === "SEGITIGA DAN SEGIEMPAT" || topik === "HIMPUNAN" || topik === "BANGUN RUANG SISI DATAR" || topik === "LINGKARAN" || topik === "TEOREMA PYTHAGORAS" || topik === "BILANGAN BERPANGKAT" || topik === "KESEBANGUNAN DAN KEKONGRUENAN" || topik === "TRANSFORMASI GEOMETRI" || topik === "BANGUN RUANG SISI LENGKUNG" || topik === "STATISTIKA") && (
                     <span className="ml-auto text-xs text-accent font-display">📖 BUKA</span>
                   )}
                 </button>
